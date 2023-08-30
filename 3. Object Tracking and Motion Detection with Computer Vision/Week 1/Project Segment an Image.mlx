@@ -1,3 +1,5 @@
+curlingMask = segmentImage(curlingImg);
+
 function [BW,maskedImage] = segmentImage(X)
 %segmentImage Segment image using auto-generated code from Image Segmenter app
 %  [BW,MASKEDIMAGE] = segmentImage(X) segments image X using auto-generated
